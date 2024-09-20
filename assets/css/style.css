@@ -1,0 +1,47 @@
+body {
+    font-family: "Raleway", sans-serif;
+    background-color: black;
+    color: white;
+  }
+
+  
+  #Principal {
+    background-image: url("../img/bg-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+  }
+  #Mis-trabajos{
+    background-color: blueviolet;
+  }
+
+  #Mis-trabajos .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #Contacto{
+    background-image:url("../img/bg-contac.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  
+  #Contacto form label {
+    font-weight: 700;
+    color: #373a3c;
+  }
+  
+  @media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+    }
+  
+    .navbar-brand{
+      width: 100px;
+    }
+  
+  }
